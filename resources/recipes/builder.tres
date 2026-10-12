@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="1_4mxic"]
+
+[resource]
+script = ExtResource("1_4mxic")
+id = "builder"
+title = "Habitat Builder"
+description = "Assembles connected station modules. Equip with 3, then B."
+cost = {
+"alloy": 3,
+"electronics": 2,
+"polymer": 2
+}

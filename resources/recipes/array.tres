@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/station/module.tscn" id="1_ilj2x"]
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="2_qtfjm"]
+
+[resource]
+script = ExtResource("2_qtfjm")
+id = "array"
+title = "Navigation Array"
+description = "Long-range interferometer. Needs a habitable powered station. Draws 6 kW."
+category = "Navigation"
+scans_required = 3
+cost = {
+"alloy": 12,
+"cells": 2,
+"copper": 6,
+"electronics": 8,
+"reactor": 3
+}
+build_type = "structure"
+result_scene = ExtResource("1_ilj2x")
+demand = 6.0

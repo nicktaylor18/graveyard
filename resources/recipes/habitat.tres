@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/station/module.tscn" id="1_hc6fo"]
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="2_c770d"]
+
+[resource]
+script = ExtResource("2_c770d")
+id = "habitat"
+title = "Habitat Room"
+description = "Pressurized refuge when connected to power and a recycler."
+category = "Habitation"
+scans_required = 3
+cost = {
+"alloy": 8,
+"polymer": 4,
+"scrap": 6
+}
+build_type = "structure"
+result_scene = ExtResource("1_hc6fo")
+demand = 1.0

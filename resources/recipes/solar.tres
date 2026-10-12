@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/station/module.tscn" id="1_mfpjl"]
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="2_qr705"]
+
+[resource]
+script = ExtResource("2_qr705")
+id = "solar"
+title = "Solar Collector"
+description = "Deploys folding photovoltaic wings. Produces 12 kW."
+category = "Power"
+scans_required = 2
+cost = {
+"alloy": 4,
+"copper": 4,
+"electronics": 3
+}
+build_type = "structure"
+result_scene = ExtResource("1_mfpjl")
+production = 12.0

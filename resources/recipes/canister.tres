@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="1_qly7l"]
+
+[resource]
+script = ExtResource("1_qly7l")
+id = "canister"
+title = "Oxygen Refill Canister"
+description = "Portable 50-unit oxygen reserve. Use from inventory."
+category = "Consumables"
+cost = {
+"cells": 1,
+"polymer": 2
+}
+build_type = "consumable"

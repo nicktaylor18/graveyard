@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.log
+tests/_*.json
+tests/_*.json.tmp
+tests/*.png
+tests/*.png.import

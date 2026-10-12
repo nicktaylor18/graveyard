@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="1_kw8ed"]
+
+[resource]
+script = ExtResource("1_kw8ed")
+id = "cutter"
+title = "Salvage Cutter"
+description = "Dismantles marked wreck components. Equip with 2."
+cost = {
+"copper": 2,
+"electronics": 2,
+"scrap": 4
+}

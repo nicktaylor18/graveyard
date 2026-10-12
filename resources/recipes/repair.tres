@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RecipeDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/crafting/recipe.gd" id="1_l6cqb"]
+
+[resource]
+script = ExtResource("1_l6cqb")
+id = "repair"
+title = "Basic Repair Kit"
+description = "Restores 45 health. Use from inventory."
+category = "Consumables"
+cost = {
+"polymer": 2,
+"scrap": 2
+}
+build_type = "consumable"
